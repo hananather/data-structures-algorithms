@@ -13,7 +13,7 @@ class Solution(object):
 		:rtype: List[int]
 		"""
 		def dfs(node):
-			if not node:
+			if node is None:
 				return
 			result.append(node.val)
 			dfs(node.left)
