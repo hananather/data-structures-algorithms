@@ -12,7 +12,7 @@ class Solution(object):
 		:type root: Treenode
 		:rtype: List[int]
 		"""
-		def dfs(node):
+		def dfs(node): # base case
 			if node is None:
 				return
 			result.append(node.val)
